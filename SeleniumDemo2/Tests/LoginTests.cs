@@ -30,8 +30,8 @@ namespace SeleniumDemo2.Tests
         public void Login_With_Valid_Credentials()
         {
             
-            string email = "sanya.maile.8888@gmail.com";
-            string password = "SeleniumDemo1234";
+            string email = "PleaseEnterYourUsername";
+            string password = "PleaseEnterYourPassword";
             string queryDestination = "Korcula Island";
             
             string emailIncorrect = "incorrectemail@gmail.com";
