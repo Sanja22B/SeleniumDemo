@@ -1,0 +1,80 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+# Ignore Rider specific files
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/shelf/
+.idea/**/modules.xml
+.idea/.idea.sln.iml
+*.sln.iml
+
+# Ignore Rider run configurations
+.idea/**/runConfigurations/
+
+# Ignore temporary files and build results
+[Bb]in/
+[Oo]bj/
+*.dll
+*.pdb
+*.exe
+*.app
+*.ipa
+*.dSYM
+*.DS_Store
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Debug and Release directories
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Selenium-specific files
+# Ignore WebDriver executables
+Drivers/
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
+chromedriver
+geckodriver
+msedgedriver
+
+# Ignore screenshots or logs saved during test runs
+Screenshots/
+*.png
+*.log
+TestResults/
+*.trx
+
+# Coverage and test reports
+coverage/
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Rider settings for coverage
+.idea/**/coverage/
+.idea/**/coverage/.last/
+
+# OS-specific files
+*.DS_Store
+*.swp
